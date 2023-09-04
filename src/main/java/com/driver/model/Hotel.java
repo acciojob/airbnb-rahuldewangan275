@@ -49,4 +49,14 @@ public class Hotel {
     public void setPricePerNight(int pricePerNight) {
         this.pricePerNight = pricePerNight;
     }
+
+    @Override
+    public String toString() {
+        return "Hotel{" +
+                "hotelName='" + hotelName + '\'' +
+                ", availableRooms=" + availableRooms +
+                ", facilities=" + facilities +
+                ", pricePerNight=" + pricePerNight +
+                '}';
+    }
 }
